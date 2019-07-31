@@ -47,6 +47,9 @@
                                 <state key="normal" title="Mental Health">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="cRw-6a-hpm" kind="show" id="fmu-kH-XoA"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.28689357380000002" green="0.83808290149999998" blue="0.67610135540000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -58,10 +61,35 @@
             </objects>
             <point key="canvasLocation" x="344.92753623188406" y="116.57608695652175"/>
         </scene>
-        <!--View Controller-->
+        <!--Stress Relievers-->
+        <scene sceneID="1Ya-OT-0wV">
+            <objects>
+                <viewController title="Stress Relievers" id="Jcl-X0-Bkz" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DME-xB-PAg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="characterWrap" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="COf-qx-DPc">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="698"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Exercise Light A Scented Candle Reduce Caffeine Intake Chew Gum Practice Mindlefulness Spend Time With Animals Drink Some Decaffenated Tea Draw In A Coloring Book</string>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.28689357380000002" green="0.83808290149999998" blue="0.67610135540000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="4pC-4N-cmV"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D1F-uJ-NRS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-276.81159420289856" y="756.52173913043487"/>
+        </scene>
+        <!--Mental Health-->
         <scene sceneID="kyS-tg-5by">
             <objects>
-                <viewController id="cRw-6a-hpm" sceneMemberID="viewController">
+                <viewController title="Mental Health" id="cRw-6a-hpm" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5uz-zW-rhE">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -75,6 +103,9 @@
                                     <color key="titleColor" red="0.28689357380000002" green="0.83808290149999998" blue="0.67610135540000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Jcl-X0-Bkz" kind="show" id="3O9-Sr-Bzg"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.28689357380000002" green="0.83808290149999998" blue="0.67610135540000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -104,6 +135,16 @@
                                 <connections>
                                     <segue destination="4Iw-1N-7eb" kind="show" id="WKS-rQ-JU8"/>
                                 </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Bac-vI-61X">
+                                <rect key="frame" x="0.0" y="388" width="414" height="164"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="43"/>
+                                <state key="normal" title="Workouts">
+                                    <color key="titleColor" red="0.28689357380000002" green="0.83808290149999998" blue="0.67610135540000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.28689357380000002" green="0.83808290149999998" blue="0.67610135540000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -460,6 +501,61 @@ Butterfly Stretch</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GSI-LF-GoE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="343.47826086956525" y="-522.554347826087"/>
+        </scene>
+        <!--Workouts-->
+        <scene sceneID="mtF-SX-SEb">
+            <objects>
+                <viewController title="Workouts" id="Knq-4u-xm2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uR1-cA-e8Y">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KWs-ub-qMk">
+                                <rect key="frame" x="0.0" y="65" width="414" height="142"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="43"/>
+                                <state key="normal" title="Stretches">
+                                    <color key="titleColor" red="0.28689357380000002" green="0.83808290149999998" blue="0.67610135540000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="yzH-iH-U0y">
+                                <rect key="frame" x="0.0" y="215" width="414" height="152"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="43"/>
+                                <state key="normal" title="Workouts">
+                                    <color key="titleColor" red="0.28689357380000002" green="0.83808290149999998" blue="0.67610135540000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JWJ-ZH-DQu">
+                                <rect key="frame" x="0.0" y="375" width="414" height="164"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="43"/>
+                                <state key="normal" title="Stretches">
+                                    <color key="titleColor" red="0.28689357380000002" green="0.83808290149999998" blue="0.67610135540000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="NGW-Kg-2GK">
+                                <rect key="frame" x="0.0" y="547" width="414" height="164"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="43"/>
+                                <state key="normal" title="Workouts">
+                                    <color key="titleColor" red="0.28689357380000002" green="0.83808290149999998" blue="0.67610135540000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.28689357380000002" green="0.83808290149999998" blue="0.67610135540000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="D0W-Rb-zjb"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6II-0h-nqR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="976.81159420289862" y="-521.73913043478262"/>
         </scene>
         <!--Folic Acid-->
         <scene sceneID="9TI-Nw-eXR">
