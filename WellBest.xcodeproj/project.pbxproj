@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		1809F3F922F35B74003D9AB3 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1809F3F822F35B74003D9AB3 /* TableViewController.swift */; };
 		1809F3FB22F35BEF003D9AB3 /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1809F3FA22F35BEF003D9AB3 /* Journal.swift */; };
+		1809F3FD22F365A1003D9AB3 /* AddEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1809F3FC22F365A1003D9AB3 /* AddEntryViewController.swift */; };
+		1809F3FF22F370BD003D9AB3 /* PreviousEntriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1809F3FE22F370BD003D9AB3 /* PreviousEntriesViewController.swift */; };
 		1841AA1F22F1D816009EDE6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1841AA1E22F1D816009EDE6C /* AppDelegate.swift */; };
 		1841AA2422F1D816009EDE6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1841AA2222F1D816009EDE6C /* Main.storyboard */; };
 		1841AA2722F1D816009EDE6C /* WellBest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1841AA2522F1D816009EDE6C /* WellBest.xcdatamodeld */; };
@@ -19,6 +21,8 @@
 /* Begin PBXFileReference section */
 		1809F3F822F35B74003D9AB3 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		1809F3FA22F35BEF003D9AB3 /* Journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
+		1809F3FC22F365A1003D9AB3 /* AddEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEntryViewController.swift; sourceTree = "<group>"; };
+		1809F3FE22F370BD003D9AB3 /* PreviousEntriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviousEntriesViewController.swift; sourceTree = "<group>"; };
 		1841AA1B22F1D816009EDE6C /* WellBest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WellBest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1841AA1E22F1D816009EDE6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1841AA2322F1D816009EDE6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -42,6 +46,8 @@
 		1841AA1222F1D816009EDE6C = {
 			isa = PBXGroup;
 			children = (
+				1809F3FC22F365A1003D9AB3 /* AddEntryViewController.swift */,
+				1809F3FE22F370BD003D9AB3 /* PreviousEntriesViewController.swift */,
 				1809F3F822F35B74003D9AB3 /* TableViewController.swift */,
 				1809F3FA22F35BEF003D9AB3 /* Journal.swift */,
 				1841AA1D22F1D816009EDE6C /* WellBest */,
@@ -141,9 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1809F3FF22F370BD003D9AB3 /* PreviousEntriesViewController.swift in Sources */,
 				1841AA2722F1D816009EDE6C /* WellBest.xcdatamodeld in Sources */,
 				1809F3F922F35B74003D9AB3 /* TableViewController.swift in Sources */,
 				1841AA1F22F1D816009EDE6C /* AppDelegate.swift in Sources */,
+				1809F3FD22F365A1003D9AB3 /* AddEntryViewController.swift in Sources */,
 				1809F3FB22F35BEF003D9AB3 /* Journal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
