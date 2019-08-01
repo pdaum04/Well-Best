@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1809F3F922F35B74003D9AB3 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1809F3F822F35B74003D9AB3 /* TableViewController.swift */; };
+		1809F3FB22F35BEF003D9AB3 /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1809F3FA22F35BEF003D9AB3 /* Journal.swift */; };
 		1841AA1F22F1D816009EDE6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1841AA1E22F1D816009EDE6C /* AppDelegate.swift */; };
-		1841AA2122F1D816009EDE6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1841AA2022F1D816009EDE6C /* ViewController.swift */; };
 		1841AA2422F1D816009EDE6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1841AA2222F1D816009EDE6C /* Main.storyboard */; };
 		1841AA2722F1D816009EDE6C /* WellBest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1841AA2522F1D816009EDE6C /* WellBest.xcdatamodeld */; };
 		1841AA2922F1D817009EDE6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1841AA2822F1D817009EDE6C /* Assets.xcassets */; };
@@ -16,9 +17,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1809F3F822F35B74003D9AB3 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		1809F3FA22F35BEF003D9AB3 /* Journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
 		1841AA1B22F1D816009EDE6C /* WellBest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WellBest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1841AA1E22F1D816009EDE6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1841AA2022F1D816009EDE6C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1841AA2322F1D816009EDE6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1841AA2622F1D816009EDE6C /* WellBest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WellBest.xcdatamodel; sourceTree = "<group>"; };
 		1841AA2822F1D817009EDE6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -40,6 +42,8 @@
 		1841AA1222F1D816009EDE6C = {
 			isa = PBXGroup;
 			children = (
+				1809F3F822F35B74003D9AB3 /* TableViewController.swift */,
+				1809F3FA22F35BEF003D9AB3 /* Journal.swift */,
 				1841AA1D22F1D816009EDE6C /* WellBest */,
 				1841AA1C22F1D816009EDE6C /* Products */,
 			);
@@ -57,7 +61,6 @@
 			isa = PBXGroup;
 			children = (
 				1841AA1E22F1D816009EDE6C /* AppDelegate.swift */,
-				1841AA2022F1D816009EDE6C /* ViewController.swift */,
 				1841AA2222F1D816009EDE6C /* Main.storyboard */,
 				1841AA2822F1D817009EDE6C /* Assets.xcassets */,
 				1841AA2A22F1D817009EDE6C /* LaunchScreen.storyboard */,
@@ -139,8 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1841AA2722F1D816009EDE6C /* WellBest.xcdatamodeld in Sources */,
-				1841AA2122F1D816009EDE6C /* ViewController.swift in Sources */,
+				1809F3F922F35B74003D9AB3 /* TableViewController.swift in Sources */,
 				1841AA1F22F1D816009EDE6C /* AppDelegate.swift in Sources */,
+				1809F3FB22F35BEF003D9AB3 /* Journal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
